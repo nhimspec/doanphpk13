@@ -1,0 +1,265 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.menu ul li{
+	list-style: none;
+}
+.content-info ul{
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.fix{
+	padding-left:  0;
+	padding-right: 0;
+	background-color: #f0f0f0;
+}
+.container{
+	background-color: #fff;
+}
+.img-cart{
+	text-align: center;
+	position: relative;
+}
+.img-cart img{
+	margin-top:20px;
+	margin-bottom: 10px;
+	width: 220px;
+	height: 220px;
+}
+.logo img{
+	width: 263px;
+	height: 82px;
+}
+.item img{
+	max-width: 100%;
+}
+/* css for top-header */
+.top-header{
+	height: 30px;
+	background-color: #30a9de;
+}
+.taikhoan {
+	padding-top: 5px;
+	float: right
+}
+.taikhoan a{
+	margin-right:20px;
+	color: #fff;
+}
+/*.mid-header{
+	border-bottom: 2px solid #30a9de;
+}*/
+/* css for find-info */
+.form1 input{
+	padding: 10px;
+	width: 100%;
+	border:solid 1px #dcdcdc;
+	border-radius: 3px 0px 0px 3px;
+}
+#find-tk{
+	border-radius: 0px 3px 3px 0px;
+	border:solid 1px #30a9de;
+	background-color: #30a9de;
+	color: #fff;
+}
+.form1 table {
+	width:90%;
+	margin: 10px auto;
+
+}
+#t2{
+	width: 100%;
+	margin: 40px 10px;
+}
+#fix-td{
+	width: 10%;
+}
+/* css for menu*/
+.menu li{
+	padding: 5px 20px 10px 20px;
+	float: left;	
+}
+.menu ul{
+	padding:0px 40px 0px 40px;
+}
+.menu{
+	overflow: hidden;
+}
+/* css for tintuc */
+.tintuc ul{
+	list-style: none;
+}
+.tintuc ul li a{
+	padding: 5px 15px 10px 20px;
+}
+.tintuc{
+	overflow: hidden;
+	margin: 0;
+}
+.danhmuc{
+	float: left;
+	width: 200px;
+}
+.danhmuc li{
+	padding: 20px;
+	height: 62.5px;
+	text-align: center;
+}
+.danhmuc li:hover{
+	background-color: #ccebff;
+}
+.danhmuc li.active{
+	background-color: #30a9de;
+	color:white;
+}
+.move{
+	float: left;
+	padding-left:0px;
+	width: 770px;
+}
+.move div{
+	height: 250px;
+}
+.tincongnghe{
+	float: left;
+	width: 180px;
+	margin-left: 20px;
+}
+/* css for content */
+
+.content{
+	margin-top:0px;
+}
+.content-bot{
+	border-top: 4px solid #dcdcdc;
+	float:left;
+	width: 100%;
+}
+.box-cart{
+	border:1px solid #dcdcdc;
+	padding-bottom: 5px;
+	float: left;
+	position: relative;
+}
+.box-cart a{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+}
+.box-cart:hover .thongtin{
+	opacity: 1;
+	transition-duration: 0.3s;
+}
+.box-cart:hover .img-cart{
+	opacity: 0;
+	transition-duration: 0.3s;
+}
+.index-km li {
+	width: 80%;
+	list-style-position:inside;
+	overflow:hidden;
+	white-space: nowrap; 
+	text-overflow: ellipsis;
+}
+.thongtin{
+	position: absolute;
+	top: 10px;
+	margin-left: 10px;
+	opacity: 0;
+	width: 80%;
+}
+.thongtin ul li{
+		list-style: none;
+}
+.ten{
+	padding-left: 10px;
+}
+.gia{
+	padding-left: 10px;
+	color: #b30000;
+}
+.mua{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+/* css for phone*/
+.chung{
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #dcdcdc;
+	padding-bottom: 20px;
+}
+#namephone{
+	font-size: 25px;
+}
+.phoneimg{
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin-right: 20px;
+	text-align: center;
+}
+.phoneimg img{
+	width: 300px;
+	height: 300px;
+}
+.phonesale{
+	float:left;
+	width: 520px;
+}
+#giaphone{
+	font-size: 25px;
+	color: #b30000;
+}
+.quangcao{
+	position: relative;
+	border:2px solid black;
+	margin-top: 25px;
+	padding: 10px;
+	border-radius: 6px;	
+}
+.quangcao ul{
+	margin-left: 20px;
+}
+.quangcao li{
+	padding: 3px;
+}
+.khuyenmai{
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 0px;
+	position: absolute;
+	top: -14px;
+	font-size: 18px;
+	left: 30px;
+    background:white;
+}
+.chinhsach{
+ 	margin-left:21px; 
+ 	padding:10px;
+}
+.chinhsach ul li{
+	padding: 3px;
+}
+.phukien{
+	float: left;
+	width: 300px;
+}
+/*css for phone-info*/
+.phone-info{
+	padding-top:15px;
+	float: left;
+}
+.thongso{
+	float: left;
+	width: 50%;
+}
+/* css for footer */
+.footer p{
+	text-align: center;
+}

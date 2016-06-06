@@ -1,4 +1,4 @@
 # Đồ án Thương Mại Điện Tử phpk13
-Mọi người pull xuống hết file trong đó có 1 file .rar và 1 file .sql còn lại là file .php
-- File .rar mọi người giải nén vào đúng thư mục đó nhé
-- file .sql mọi người tạo database doan rồi import vào trong database : doan nhé
+Mọi người pull xuống hết file
+Mọi người vào link này để tải file sql nhé xong tạo database là doan rồi import vào nhé (database:doan)
+http://www.mediafire.com/download/us9btz38v1hsdxw/doan.slq

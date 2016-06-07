@@ -249,6 +249,7 @@ a:hover{
 .phukien{
 	float: left;
 	width: 300px;
+	position: relative;
 }
 /*css for phone-info*/
 .phone-info{
@@ -262,4 +263,11 @@ a:hover{
 /* css for footer */
 .footer p{
 	text-align: center;
+}
+/*css for update icon*/
+#update{
+	width: 50px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
 }

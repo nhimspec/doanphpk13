@@ -180,7 +180,8 @@ $result = $conn->query($sql);;
 							<div class="index-km">
 								<?php echo $row['khuyenmai'];?>
 							</div>
-							<button type="button" class="btn btn-primary mua" onclick="window.location.href='#'">Mua</button>						
+							<button type="button" class="btn btn-primary add-giohang" onclick="window.location.href='#'" >Giỏ</button>
+							<button type="button" class="btn btn-danger mua" onclick="window.location.href='#'">Mua</button>						
 					</div>
 										
 					<?php

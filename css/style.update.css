@@ -111,83 +111,67 @@
 .content-info ul{
 	list-style: none;
 }
-/*css for content-index*/
+/*css for content-update*/
 .content-bot{
 	border-top: 4px solid #dcdcdc;
 	float:left;
 	width: 100%;
 }
-.box-cart{
-	border:1px solid #dcdcdc;
-	padding-bottom: 5px;
+.chung{
 	float: left;
-	position: relative;
-	height: 365.4px;
-}
-.box-cart .thongtin,.img-cart{
-	transition: opacity 0.5s;
-}
-.box-cart a{
-	position: absolute;
 	width: 100%;
-	height: 100%;
-	left: 0px;
+	border-bottom: 1px solid #dcdcdc;
+	padding-bottom: 20px;
 }
-.box-cart:hover .thongtin{
-	opacity: 1;
+#namephone{
+	font-size: 25px;
 }
-.box-cart:hover .img-cart{
-	opacity: 0;
-}
-.img-cart{
+.phoneimg{
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin-right: 20px;
 	text-align: center;
 }
-.img-cart img{
-	margin-top:20px;
-	margin-bottom: 10px;
-	width: 220px;
-	height: 220px;
+.phoneimg img{
+	width: 300px;
+	height: 300px;
 }
-.thongtin{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	margin:0px;
-	opacity: 0;
-	width: 100%;
-	background-color: #f8f8f8;
-	height: 250px;
+.phonesale{
+	float:left;
+	width: 520px;
 }
-.thongtin ul{
-	padding:10px;
-}
-.thongtin ul li{
-		list-style: none;
-		margin:5px 10px 5px 10px;
-}
-.ten{
-	padding-left: 10px;
-}
-.gia{
-	padding-left: 10px;
+#giaphone{
+	font-size: 25px;
 	color: #b30000;
 }
-.index-km li {
-	width: 80%;
-	list-style-position:inside;
-	overflow:hidden;
-	white-space: nowrap; 
-	text-overflow: ellipsis;
+.chinhsach{
+ 	margin-left:21px; 
+ 	padding:10px;
 }
-.add-giohang{
-	position: absolute;
-	bottom: 42px;
-	right: 5px;
+.chinhsach ul li{
+	padding: 3px;
 }
-.mua{
-	position: absolute;
-	bottom: 5px;
-	right: 5px;
+.phukien{
+	float: left;
+	width: 300px;
+	position: relative;
+}
+/*phone-info css*/
+.phone-info{
+	padding-top:15px;
+	float: left;
+}
+.thongso{
+	float: left;
+	width: 50%;
+}
+.thongso h2{
+	margin-bottom:30px;
+}
+.submit{
+	text-align: center;
+	width: 100%;
 }
 /* css for footer */
 .footer p{

@@ -111,83 +111,18 @@
 .content-info ul{
 	list-style: none;
 }
-/*css for content-index*/
+/*css for content-dangnhap*/
 .content-bot{
 	border-top: 4px solid #dcdcdc;
 	float:left;
 	width: 100%;
 }
-.box-cart{
-	border:1px solid #dcdcdc;
-	padding-bottom: 5px;
-	float: left;
-	position: relative;
-	height: 365.4px;
+.dangnhap{
+	padding-top:20px;
 }
-.box-cart .thongtin,.img-cart{
-	transition: opacity 0.5s;
-}
-.box-cart a{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0px;
-}
-.box-cart:hover .thongtin{
-	opacity: 1;
-}
-.box-cart:hover .img-cart{
-	opacity: 0;
-}
-.img-cart{
+.submit{
 	text-align: center;
-}
-.img-cart img{
-	margin-top:20px;
-	margin-bottom: 10px;
-	width: 220px;
-	height: 220px;
-}
-.thongtin{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	margin:0px;
-	opacity: 0;
 	width: 100%;
-	background-color: #f8f8f8;
-	height: 250px;
-}
-.thongtin ul{
-	padding:10px;
-}
-.thongtin ul li{
-		list-style: none;
-		margin:5px 10px 5px 10px;
-}
-.ten{
-	padding-left: 10px;
-}
-.gia{
-	padding-left: 10px;
-	color: #b30000;
-}
-.index-km li {
-	width: 80%;
-	list-style-position:inside;
-	overflow:hidden;
-	white-space: nowrap; 
-	text-overflow: ellipsis;
-}
-.add-giohang{
-	position: absolute;
-	bottom: 42px;
-	right: 5px;
-}
-.mua{
-	position: absolute;
-	bottom: 5px;
-	right: 5px;
 }
 /* css for footer */
 .footer p{

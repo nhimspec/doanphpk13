@@ -111,7 +111,7 @@
 .content-info ul{
 	list-style: none;
 }
-/*css for content-index*/
+/*css for content-find*/
 .content-bot{
 	border-top: 4px solid #dcdcdc;
 	float:left;
@@ -188,6 +188,11 @@
 	position: absolute;
 	bottom: 5px;
 	right: 5px;
+}
+#find-kq{
+	text-align:center;
+	padding:20px;
+	font-size:40px;
 }
 /* css for footer */
 .footer p{

@@ -7,25 +7,46 @@ $result = $conn->query($sql);;
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>TKP Store</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.index.css">
-	<script src="js/js1.12.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-</head>
-<body>
-	<div class="container-fluid fix">
-		<?php include('view/header.php'); ?>
-		<div class="container">			
-			<?php include('view/mid-header.php'); ?>
-			<div class="content row">
-				<?php include('view/content-top.php'); ?>
-				<?php include('view/site/content-index.php'); ?>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TKP Store</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.index2.css">
+		<script src="js/js1.12.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="contairner-fluid">
+			<div class="fix"><?php include("view/cnt-menu.php") ?></div>
+			<div class="container">
+
+				<?php include("view/cnt-banner.php") ?>
+				<div class="phone row">
+					<div class="title"><img src="img/icon/smartphone.png" alt=""><span>Điện thoại</span></div>
+					<?php include("view/site/content-index.php") ?>
+
+				</div>
+				<div class="row ads">
+					<div >
+						<img src="img/ads/ads1.jpg" alt="">
+					</div>
+				</div>
+				<div class="tablet row">
+					<div class="title"><img src="img/icon/tablet-icon.png" alt=""><span>Tablet</span></div>
+					<?php include("view/site/content-index.php") ?>
+
+				</div>
+				<div class="row ads">
+					<div >
+
+						<img src="img/ads/ads1.jpg" alt="">
+					</div>
+				</div>
 			</div>
+			<footer>
+				<?php include('view/footer.php') ?>
+			</footer>
 		</div>
-		<?php include('view/footer.php'); ?>
-	</div>
-</body>
+	</body>
 </html>

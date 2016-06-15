@@ -4,7 +4,7 @@
     // output data of each row
     while($row = $result->fetch_array()) {
 	?>				
-	<div class="col-md-3 box-cart">		
+	<div class="col-lg-2 col-md-3 box-cart">		
 		<a href="sanpham.php?id=<?php echo $row["id"]; ?>"></a>			
 			<div class="row img-cart">
 				<img src="action/showimg.php?id=<?php echo $row["id"]; ?>" alt="<?php echo $row["ten"]; ?>">
@@ -48,6 +48,6 @@
 	<?php
 	} 
 	}
-	database::disconnect();
+	
 	?>
 </div>

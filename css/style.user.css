@@ -177,3 +177,6 @@
 .footer p{
 	text-align: center;
 }
+a:hover{
+	text-decoration: none;
+}

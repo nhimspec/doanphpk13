@@ -14,20 +14,21 @@ if ( !empty($_GET)) {
 	<meta charset="UTF-8">
 	<title>TKP Store</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.find.css">
+	<link rel="stylesheet" href="css/style.index2.css">
 	<script src="js/js1.12.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-	<div class="container-fluid fix">
-		<?php include('view/header.php'); ?>
-		<div class="container">		
-			<?php include('view/mid-header.php'); ?>
-			<div class="content row">
-				<?php include('view/content-top.php'); ?>
-				<?php include('view/site/content-find.php'); ?>
-			</div>
-		</div>
+	<div class="container-fluid">
+		<div class="fix"><?php include("view/cnt-menu.php") ?></div>
+			<div class="container">
+
+				<?php include("view/cnt-banner.php") ?>
+				<div class="phone row">
+					<div class="title"><img src="img/icon/smartphone.png" alt=""><span>Điện thoại</span></div>
+					<?php include("view/site/content-find.php") ?>
+
+				</div>
 		<?php include('view/footer.php'); ?>
 	</div>
 </body>

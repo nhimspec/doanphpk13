@@ -1,0 +1,49 @@
+.footer{
+	background-color: #f2f2f2;
+	border-top: 1px solid #e2e2e2;
+
+
+}
+.fix-ul{
+	margin: 15px 0px 10px -25px;
+	border-bottom: 1px solid #e2e2e2;
+
+
+}
+.call{
+ float: left;
+ width: 100%;
+ margin: 15px 0px 10px -45px;
+}
+.call input{
+	border-radius: 5px;
+	padding: 6px 8px;
+	border: 1px solid #e2e2e2;}
+.send {
+	padding: 0 10px;
+	background: linear-gradient(to bottom,#be0b0b 0%,#de0b0b 100%);
+    background: -moz-linear-gradient(to bottom,#be0b0b 0%,#de0b0b 100%);
+    background: -o-linear-gradient(to bottom,#be0b0b 0%,#de0b0b 100%);
+    background: -ms-linear-gradient(to bottom,#be0b0b 0%,#de0b0b 100%);
+    background: -webkit-linear-gradient(top, 0%,#de0b0b 100%);
+    
+    
+    border: 1px solid #be0b0b;
+    color: #fff;
+}
+.call strong{
+	color:#de0b0b;
+	font-size: 22px;
+}
+.call-right{
+	margin: 15px 0px 10px -45px;
+}
+.call-right img{
+	float: left;
+	margin-right: 10px;
+}
+.text-footer{
+	text-align: center;
+	font:italic;
+	border-top: 1px solid #e2e2e2;
+}

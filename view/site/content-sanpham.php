@@ -1,7 +1,7 @@
 <div class="content-bot col-md-12">
 	<div class="row">	
 		<div class="chung col-md-12">
-			<h2 id="namephone">Điện thoại <?php echo $data['ten'];?></h2>
+			<h2 id="namephone"> <?php echo $data['ten'];?></h2>
 			<a href="update.php?id=<?php echo $data["id"]; ?>" title="Chỉnh sửa"><img src="img/icon/update.png" id="update" alt="update"></a>
 			<div class="phoneimg">	
 				<img src="action/showimg.php?id=<?php echo $data["id"]; ?>" alt="<?php echo $data["ten"]; ?>">
@@ -23,6 +23,11 @@
 							<?php echo $data['baohanh'];?>
 						</li>
 					</ul>
+				</div>
+				<div class='box-btn'>
+				<button type="button" class="btn  btn-lg add-shop" onclick="window.location.href='#'" >Đặt trước online</button>
+				<button type="button" class="btn  btn-lg buy" onclick="window.location.href='dathang.php?id=<?php echo $row["id"]; ?>'">Mua hàng</button>
+				<button type="button" class="btn  btn-lg call" onclick="window.location.href='dathang.php?id=<?php echo $row["id"]; ?>'">Gọi 1800 8198</button>
 				</div>
 			</div>
 			<div class="phukien">

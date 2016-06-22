@@ -32,7 +32,7 @@
 						<input type="text" class="form-control" placeholder="Số điện thoại" name="sdt">
 				</div>
 				<div class="form-group submit">
-					<button type="submit" class="btn btn-primary">Mua</button>
+					<button type="submit" class="btn btn-primary fix-mua">Mua</button>
 					<a href="index.php" class="btn btn-default" role="button">Trở lui</a>
 				</div>
 			</form>

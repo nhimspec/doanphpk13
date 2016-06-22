@@ -1,0 +1,100 @@
+.icon2{
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/icon/laptop2.png) !important;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	
+}
+.menu ul .active-a2{
+	border-bottom: 5px solid #d21212;
+	transition: all .3s ease;
+}
+
+.title-menu{
+	overflow: hidden;
+	background-color: #f7f7f7;
+	border: 1px solid #ddd;
+/* 	border-bottom: none; */
+	border-radius: 6px 6px 0 0;
+
+
+
+}
+.title-menu>ul>li{
+	float: left;
+	padding: 13px 5px 13px 5px;
+	font-size: 14px;
+	display: block;
+}
+.title-menu>ul>li:last-child {
+	padding: 6px;
+}
+.sub-menu{
+	display: block;
+	margin: 0 20px;
+
+	
+}
+.sub-menu ul { 
+	width: 15%;
+	display: none;
+	position: absolute;
+	z-index: 1000;
+	
+	margin-top: 14px;
+	margin-left: -20px; 
+	border: 1px solid #ddd;
+	border-top: none;
+
+
+
+}
+.sub-menu ul li a{
+	padding: 8px 35px;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	background-color: #f7f7f7;
+}
+.sub-menu ul li:hover a{
+
+	background-color: #fff;
+}
+.sub-menu:hover ul {
+  display: block;
+
+}
+.btn-fone{
+	 padding:5px 12px; 
+	background-color: inherit;
+	border: 1px solid #428bca;
+	border-radius: 6px;
+	color: #428bca;
+
+
+}
+.container .row{
+	 padding-right: 0 !important;
+	padding-left: 0 !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	 
+}
+.fix-hight{
+	height: 100px;
+}
+/* .sub-menu{
+
+	position: absolute;
+	
+} */
+/* css for owl.carousel */
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}

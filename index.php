@@ -3,7 +3,7 @@ session_start();
 require 'database/database.php';
 $conn = database::connect();
 $sql = "SELECT * FROM sanpham";
-$result = $conn->query($sql);;
+$result = $conn->query($sql);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -43,6 +43,7 @@ $result = $conn->query($sql);;
 						<img src="img/ads/ads1.jpg" alt="">
 					</div>
 				</div>
+				
 			</div>
 			<footer>
 				<?php include('view/footer.php') ?>

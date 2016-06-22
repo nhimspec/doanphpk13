@@ -1,8 +1,21 @@
 @import "footer.css";
+@import "style.dathang.css" ;
+@import "style.sanpham.css";
+/* css owl carousel */
+@import "owl-carousel/owl.carousel.css";
+@import "owl-carousel/owl.theme.css";
+@import "owl-carousel/owl.transitions.css";
+/* **************************/
+
 *{
 	margin: 0;
 	padding: 0;
 	font-family:  Arial, Helvetica, sans-serif;
+
+}
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
 
 }
 /*********************** begin css for menu and banner ***********************/
@@ -19,10 +32,14 @@ a:hover{
 	overflow: hidden;
 	width:1200px;
 	margin:0 auto;
+	display: block;
+
 	
 }
 .fix{
 	
+	z-index: 9999;
+	display: block;
 	background-color: #eeeeee;
 	box-shadow: 0 0 25px 0 rgba(0,0,0,.2);
 	margin-bottom: 10px;
@@ -75,6 +92,7 @@ a:hover{
 	float: left;
 	margin: 0 10px;
 	color: #211f1f;
+	display: block;
 
 
 
@@ -84,7 +102,7 @@ a:hover{
 	text-align: center;
 	font-weight: 400;
 	cursor: pointer;
-	
+	text-transform: uppercase;
 }
 .menu ul li span{
 	text-align: center;
@@ -159,9 +177,7 @@ a:hover{
 	background-image: url(../img/icon/sale2.png);
 	background-repeat: no-repeat;
 }
-.menu ul a:hover li{
-	
-}
+
 .menu ul a:hover{
 	border-bottom: 5px solid #d21212;
 	transition: all .3s ease;
@@ -238,7 +254,7 @@ a:hover{
 	opacity: 0;
 	width: 100%;
 	background-color: #f8f8f8;
-	
+	height: 200px;
 }
 .thongtin ul{
 	padding:10px;
@@ -304,6 +320,7 @@ a:hover{
 	text-transform: uppercase;
 	margin: 3px auto;
 	color:#288ad6;
+	position: absolute;
 }
 .ct button:hover{
 	background-color: #288ad6;
@@ -316,6 +333,8 @@ a:hover{
 	border: 1px solid #dcdcdc;
 	padding: 5px 0px;
 	border-radius: 5px 5px 0px 0px;
+	border-bottom: none;
+	background-color: #f6f6f6;
 }
 .title span{
 	vertical-align: bottom;

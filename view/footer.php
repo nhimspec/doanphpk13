@@ -42,7 +42,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="call row">
+		<div class="call-ft row">
 		<div class="col-md-6 call-left">
 			<h4>Đăng kí nhận tin khuyến mãi</h4>
 			<form action="" method="POST">

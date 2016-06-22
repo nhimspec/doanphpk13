@@ -32,8 +32,7 @@
 						Camera: <?php echo $row["cmrsau"] . ", "; ?><?php echo $row["cmrtruoc"]; ?>
 					</li>
 					
-					<li class="ct"><button type="submit" >xem chi tiết</button></li>
-
+					
 				</ul>
 
 			</div>

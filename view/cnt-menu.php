@@ -10,7 +10,7 @@
 				</div>
 				<div class="menu">
 					<ul>
-						<a href="./dienthoai.php" class="active-a0">
+						<a href="">
 							<li>
 								<span>
 									<label>
@@ -21,7 +21,7 @@
 								<label >Điện thoại</label>
 							</li>
 						</a>
-						<a href="./tablet.php" class="active-a1">
+						<a href="">
 							<li>
 								<span>
 									<label>
@@ -32,7 +32,7 @@
 								
 							</li>
 						</a>
-						<a href="./laptop.php" class="active-a2">
+						<a href="">
 							<li>
 								<span>
 									<label>
@@ -42,7 +42,7 @@
 								<label >Laptop</label>
 							</li>
 						</a>
-						<a href="./phukien.php" class="active-a3">
+						<a href="">
 							<li>
 								<span>
 									<label>
@@ -52,7 +52,7 @@
 								<label >Phụ kiện</label>
 							</li>
 						</a>
-						<a href="./sale.php" class="active-a4">
+						<a href="">
 							<li>
 								<span>
 									<label>

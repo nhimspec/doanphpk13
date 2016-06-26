@@ -26,18 +26,20 @@ if ( null==$id || !(is_numeric($id))) {
 	<meta charset="UTF-8">
 	<title>TKP Store</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.dathang.css">
+	<link rel="stylesheet" href="css/style.index2.css">
+
 	<script src="js/js1.12.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 
 </head>
 <body>
-	<div class="container-fluid fix">
-		<?php include('view/header.php'); ?>
+
+	<div class="container-fluid ">
+		<div class="fix"><?php include('view/cnt-menu.php'); ?></div>
 		<div class="container">		
-			<?php include('view/mid-header.php'); ?>
+			<!-- <?php include('view/cnt-banner.php'); ?> -->
 			<div class="content row">
-				<?php include('view/content-top.php'); ?>
+				<!-- <?php include('view/content-top.php'); ?> -->
 				<?php include('view/site/content-dathang.php'); ?>
 			</div>
 		</div>

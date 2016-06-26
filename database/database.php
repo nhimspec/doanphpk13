@@ -4,7 +4,7 @@ class database
 	private static $servername	="localhost";
 	private static $username	="root";
 	private static $password	="";
-	private static $dbname		="admin_tkpstore";
+	private static $dbname		="doan";
 
 	private static $conn		=null;
 

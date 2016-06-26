@@ -3,15 +3,11 @@
 	padding: 0px;
 	margin: 0px;
 }
-.fix{
-	padding-left:  0;
-	padding-right: 0;
-	background-color: #f0f0f0;
-}
-.container{
+
+/* .container{
 	background-color: #fff;
 }
-/*css for header*/
+css for header
 .top-header{
 	height: 30px;
 	background-color: #30a9de;
@@ -24,7 +20,7 @@
 	margin-right:20px;
 	color: #fff;
 }
-/*css for mid-header*/
+css for mid-header
 .logo img{
 	width: 263px;
 	height: 82px;
@@ -65,7 +61,7 @@
 	width: 100%;
 	margin: 40px 10px;
 }
-/*css for content-top*/
+css for content-top
 .tintuc{
 	overflow: hidden;
 	margin: 0;
@@ -110,10 +106,50 @@
 }
 .content-info ul{
 	list-style: none;
-}
+} */
 /*css for content-sanpham*/
+.set{
+	padding: 0;
+}
+.add-shop{
+	padding: 6px 20px;
+	
+	float: left;
+	margin-right: 5px;
+	background: -webkit-gradient(linear,center top,center bottom,from(#ec1010),to(#da0b00));
+    background: linear-gradient(#ec1010,#da0b00);
+    background-color: #e60d0d;
+	
+}
+.box-btn{
+	margin: 0 10px;
+	padding: 0 5px;
+	color: #fff;
+	overflow: hidden;
+
+}
+.box-btn:hover button{
+	color: #fff
+
+}
+
+.buy{
+	padding: 6px 20px;
+	border-color: #f89406;
+	background:-webkit-linear-gradient(top,#f89406,#f76b1c);
+    background: -moz-linear-gradient(top,#f89406,#f76b1c);
+    background: -ms-linear-gradient(top,#f89406,#f76b1c);
+    background: -o-linear-gradient(top,#f89406,#f76b1c);
+	
+}
+.call{
+	padding: 6px 20px;
+	    background: -webkit-gradient(linear,center top,center bottom,from(#68bf5f),to(#49a342));
+    background: linear-gradient(#68bf5f,#49a342);
+    background-color: #68bf5f;
+}
 .content-bot{
-	border-top: 4px solid #dcdcdc;
+	/* border-top: 4px solid #dcdcdc; */
 	float:left;
 	width: 100%;
 }
@@ -199,6 +235,3 @@
 	margin-bottom:30px;
 }
 /* css for footer */
-.footer p{
-	text-align: center;
-}

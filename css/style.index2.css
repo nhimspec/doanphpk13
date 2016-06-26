@@ -1,7 +1,21 @@
+@import "footer.css";
+@import "style.dathang.css" ;
+@import "style.sanpham.css";
+/* css owl carousel */
+@import "owl-carousel/owl.carousel.css";
+@import "owl-carousel/owl.theme.css";
+@import "owl-carousel/owl.transitions.css";
+/* **************************/
+
 *{
 	margin: 0;
 	padding: 0;
 	font-family:  Arial, Helvetica, sans-serif;
+
+}
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
 
 }
 /*********************** begin css for menu and banner ***********************/
@@ -18,10 +32,14 @@ a:hover{
 	overflow: hidden;
 	width:1200px;
 	margin:0 auto;
+	display: block;
+
 	
 }
 .fix{
 	
+	z-index: 9999;
+	display: block;
 	background-color: #eeeeee;
 	box-shadow: 0 0 25px 0 rgba(0,0,0,.2);
 	margin-bottom: 10px;
@@ -74,6 +92,7 @@ a:hover{
 	float: left;
 	margin: 0 10px;
 	color: #211f1f;
+	display: block;
 
 
 
@@ -83,7 +102,7 @@ a:hover{
 	text-align: center;
 	font-weight: 400;
 	cursor: pointer;
-	
+	text-transform: uppercase;
 }
 .menu ul li span{
 	text-align: center;
@@ -158,9 +177,7 @@ a:hover{
 	background-image: url(../img/icon/sale2.png);
 	background-repeat: no-repeat;
 }
-.menu ul a:hover li{
-	
-}
+
 .menu ul a:hover{
 	border-bottom: 5px solid #d21212;
 	transition: all .3s ease;
@@ -201,6 +218,9 @@ a:hover{
 .box-cart .thongtin,.img-cart{
 	transition: opacity 0.5s;
 }
+.img-cart{
+	margin-bottom: 15px;
+}
 .box-cart a{
 	position: absolute;
 	width: 100%;
@@ -209,6 +229,10 @@ a:hover{
 }
 .box-cart:hover .thongtin{
 	opacity: 1;
+
+}
+.box-cart:hover h3{
+	color:#288ad6;
 }
 .box-cart:hover .img-cart{
 	opacity: 0;
@@ -230,7 +254,7 @@ a:hover{
 	opacity: 0;
 	width: 100%;
 	background-color: #f8f8f8;
-	height: 250px;
+	height: 200px;
 }
 .thongtin ul{
 	padding:10px;
@@ -245,30 +269,72 @@ a:hover{
 .gia{
 	padding-left: 10px;
 	color: #b30000;
+	font-size: 18px;
 }
 .index-km li {
 	width: 80%;
+	list-style: circle;
 	list-style-position:inside;
 	overflow:hidden;
 	white-space: nowrap; 
 	text-overflow: ellipsis;
 }
-.add-giohang{
-	position: absolute;
-	bottom: 42px;
-	right: 5px;
-}
-.mua{
-	position: absolute;
+.box-btn{
 	bottom: 5px;
-	right: 5px;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	margin:0 4.5em;
+}
+
+/* .add-giohang{
+ 	float: left;
+ 	padding: 3px 14px;
+ 	font-size: 18px;
+ 	margin:0px 5px;
+ } */ 
+.mua{
+	float: left;
+	padding: 3px 14px;
+	font-size: 18px;
+	margin:0px 5px;
+	border-color: #f89406;
+	background:-webkit-linear-gradient(top,#f89406,#f76b1c);
+    background: -moz-linear-gradient(top,#f89406,#f76b1c);
+    background: -ms-linear-gradient(top,#f89406,#f76b1c);
+    background: -o-linear-gradient(top,#f89406,#f76b1c);
+}
+.box-btn:hover .mua{
+	border-color: #288ad6;
+	background:-webkit-linear-gradient(top,#288ad6,#679ECA);
+    background: -moz-linear-gradient(top,#288ad6,#679ECA);
+    background: -ms-linear-gradient(top,#288ad6,#679ECA);
+    background: -o-linear-gradient(top,#288ad6,#679ECA);
+}
+
+.ct button{
+	border-radius: 5px;
+	border: 1px solid #288ad6;
+	background-color: #fff;
+	padding: 5px;
+	text-transform: uppercase;
+	margin: 3px auto;
+	color:#288ad6;
+	position: absolute;
+}
+.ct button:hover{
+	background-color: #288ad6;
+	color: #fff;
+	font-weight: bold;
 }
 /**********************end css for content index**********************/
 /***********************css for content index2***********************/
 .title{
 	border: 1px solid #dcdcdc;
 	padding: 5px 0px;
-	border-radius: 5px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: none;
+	background-color: #f6f6f6;
 }
 .title span{
 	vertical-align: bottom;
@@ -278,6 +344,4 @@ a:hover{
 
 	padding: 5px 0px;
 }
-.footer{
-	text-align: center;
-}
+/****************************** css footer ******************************/

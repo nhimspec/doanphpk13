@@ -11,7 +11,7 @@ if ( null==$id || !(is_numeric($id))) {
 	header("Location: index.php");
 } else {
    	$conn = Database::connect();
-   	$sql = "SELECT * FROM sanpham WHERE id=$id";
+   	$sql = "SELECT * FROM product INNER JOIN phone ON product.id = phone.id WHERE id=$id";
 	$results = mysqli_query($conn, $sql);
 	if ($results->num_rows > 0) {
 		$data = $results->fetch_array();

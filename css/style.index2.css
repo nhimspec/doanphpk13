@@ -1,6 +1,7 @@
 @import "footer.css";
 @import "style.dathang.css" ;
 @import "style.sanpham.css";
+@import "res_menu.css";
 /* css owl carousel */
 @import "owl-carousel/owl.carousel.css";
 @import "owl-carousel/owl.theme.css";
@@ -28,9 +29,9 @@ a:hover{
 /*********************** css for header********************** */
 .header{
 	
-	padding: 3px;
+	padding: 0.1em 4em;
 	overflow: hidden;
-	width:1200px;
+	width:100%;
 	margin:0 auto;
 	display: block;
 
@@ -59,7 +60,7 @@ a:hover{
 	float: left;
 	display: inline-block;
 	margin: 15px 5px;
-	width: 320px;
+	width: 30%;
 
 }
 .search input{
@@ -90,7 +91,7 @@ a:hover{
 }
 .menu ul a li, .menu ul a{
 	float: left;
-	margin: 0 10px;
+	margin: 0 0.5em;
 	color: #211f1f;
 	display: block;
 
@@ -192,7 +193,7 @@ a:hover{
 }
 /*********************** css for banner ***********************/
 .img-1 img{
-	width: 360px;
+	max-width: 100%;
 	height:135px;
 }
 .img-1{
@@ -200,7 +201,12 @@ a:hover{
 }
 .b-left{
 	padding-left: 0px;
+
 }
+.b-right{
+	display: block;
+}
+
 /*********************** end css menu and banner ***********************/
 /***********************begin css for content-index***********************/
 .content-bot{
@@ -284,7 +290,8 @@ a:hover{
 	overflow: hidden;
 	position: absolute;
 	text-align: center;
-	margin:0 4.5em;
+	width:100%;
+	/* margin:0 4.5em; */
 }
 
 /* .add-giohang{
@@ -294,10 +301,10 @@ a:hover{
  	margin:0px 5px;
  } */ 
 .mua{
-	float: left;
+	/* float: left; */
 	padding: 3px 14px;
 	font-size: 18px;
-	margin:0px 5px;
+	/* margin:0px 5px; */
 	border-color: #f89406;
 	background:-webkit-linear-gradient(top,#f89406,#f76b1c);
     background: -moz-linear-gradient(top,#f89406,#f76b1c);
@@ -344,4 +351,82 @@ a:hover{
 
 	padding: 5px 0px;
 }
+.item img{
+	width: 100%;
+}
+/* RESPONSITE menu */
+/* 
+@media only screen and (max-width: 1024px) {
+ 
+}
+ 
+@media only screen and (max-width: 980px) {
+ 
+}
+ 
+@media only screen and (max-width: 800px) {
+ 
+}
+ 
+@media only screen and (max-width: 780px) {
+ 
+}
+ 
+@media only screen and (max-width: 768px) {
+ 
+}
+ 
+@media only screen and (max-width: 720px) {
+ 
+}
+ 
+@media only screen and (max-width: 640px) {
+ 
+}
+ 
+@media only screen and (max-width: 600px) {
+ 
+}
+ 
+@media only screen and (max-width: 568px) {
+ 
+}
+ 
+@media only screen and (max-width: 563px) {
+ 
+}
+ 
+@media only screen and (max-width: 549px) {
+ 
+}
+ 
+@media only screen and (max-width: 534px) {
+ 
+}
+ 
+@media only screen and (max-width: 480px) {
+ 
+}
+ 
+@media only screen and (max-width: 360px) {
+ 
+}
+ 
+@media only screen and (max-width: 338px) {
+ 
+}
+ 
+@media only screen and (max-width: 330px) {
+ 
+}
+ 
+@media only screen and (max-width: 320px) {
+ 
+}*/
+/* @media only screen and (min-width: 1096px){
+	.menu ul a li{
+		margin:0 0.2em;
+	}
+} */
+
 /****************************** css footer ******************************/

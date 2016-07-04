@@ -2,7 +2,7 @@
 session_start();
 require 'database/database.php';
 $conn = database::connect();
-$sql = "SELECT * FROM sanpham";
+$sql = "SELECT * FROM product INNER JOIN phone ON product.id = phone.id ";
 $result = $conn->query($sql);
 ?>
 <!DOCTYPE html>

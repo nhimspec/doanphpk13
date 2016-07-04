@@ -1,0 +1,129 @@
+#btn-menu,#btn-menu2{
+	display: none;
+
+}
+#btn-menu2{
+	
+	font-size: 20px;
+	padding: 1em 0.5em;
+}
+.menu>label{
+	float: left;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+@media screen and (max-width: ){
+	
+}
+@media  screen and (max-width: 1205px){
+	.menu ul a li{
+		margin:0 0.2em;
+	}
+	.hotline{display: none !important;
+
+	}
+	.b-right{
+		display: none !important;
+	}
+	.b-left{
+		width: 100% !important;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		
+
+	}
+
+}
+@media screen and (max-width:1055px ){
+	.header .search{
+		width: 25% ;
+	}
+	
+	
+
+	
+}
+@media screen and (max-width:950px ){
+	.row{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.header{
+		padding: 0 !important;
+	}
+	.container{
+		width: 100% !important;
+	}
+	.header .search{
+		width: 50% !important;
+
+	}
+	#btn-menu2{
+	display: block;
+	float: right;
+
+}
+.b-left{
+		
+		margin-top: 0px;
+		
+
+	}
+.header{
+	
+
+}
+ .menu{
+ 	position: absolute;
+ 	width: 30%;
+ 	margin-left: -50%;
+ 	top:62px;
+ 	left: 0px;
+ 	z-index: 9999;
+ 	float: none !important;
+ 	background-color: #eeeeee;
+ 	transition:all 1s;
+ 	
+ }
+ .menu ul  a li{
+ 	flex-direction: column  !important;
+ 	float: none !important;
+ 	overflow: hidden;
+ 	height: 50px;
+ 	position: relative !important;;
+ }
+ .menu ul a{
+ 	float: none !important;
+ }
+ .menu ul a{
+ 	border-bottom: 1px solid #fff !important ;
+ }
+.menu ul a:hover{
+	border-bottom: 1px solid #fff  !important ;
+}
+.menu ul li label{
+	width: 80% !important;
+	position: absolute !important;;
+	margin: 1em 0 !important;;
+	
+}
+.menu ul li span{
+	width: 20% !important;
+	float: left !important;
+	position: relative;
+
+}
+#btn-menu:checked ~ .menu{
+	margin:0!important;
+}
+label{
+	display: block !important;
+}
+}
+@media screen and (max-width:655px )	{
+	.menu{
+		width: 50%;
+	}
+}

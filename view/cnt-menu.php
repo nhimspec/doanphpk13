@@ -8,7 +8,10 @@
 						<button type="submit" class="tk" name="tk"><img src="img/icon/search.png" alt=""></button>
 					</form>
 				</div>
+					<input type="checkbox" id="btn-menu">
+					<label for="btn-menu"  ><span class="glyphicon glyphicon-align-justify" id="btn-menu2"></span></label>
 				<div class="menu">
+
 					<ul>
 						<a href="./dienthoai.php" class="active-a0">
 							<li>
